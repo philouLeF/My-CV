@@ -1,0 +1,92 @@
+body {
+    background-color: #F1E3E4#1C1D21;
+    color: #759AAB;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a, a:visited {
+    color: #759AAB;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 3%;
+    grid-row-gap: 5%;
+}
+
+.tous {
+    background-color: #1C1D21;
+    border-top-left-radius: 4.5em;
+    border-bottom-right-radius: 4.5em;
+    border-top-right-radius: 0.5em;    
+    border-bottom-left-radius: 0.5em;
+}
+
+.name {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    text-align: center;
+}
+
+.photo {
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.formations {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.flexFormations {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.annéeForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h6 {
+    margin: 1%;
+}
+
+.logiLang {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.atouts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.langues {
+    text-align: center;
+}
+
+.hobbies {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
